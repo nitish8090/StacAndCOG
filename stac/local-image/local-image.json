@@ -1,0 +1,60 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "local-image",
+  "properties": {
+    "datetime": "2023-09-05T08:17:10.707536Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          37.6616853489879,
+          55.73478197572927
+        ],
+        [
+          37.6616853489879,
+          55.73882710285011
+        ],
+        [
+          37.66573047610874,
+          55.73882710285011
+        ],
+        [
+          37.66573047610874,
+          55.73478197572927
+        ],
+        [
+          37.6616853489879,
+          55.73478197572927
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "C:/Users/nitis/Downloads/SN5_roads_train_AOI_7_Moscow_MS_chip996_cog.tif",
+      "type": "image/tiff; application=geotiff"
+    }
+  },
+  "bbox": [
+    37.6616853489879,
+    55.73478197572927,
+    37.66573047610874,
+    55.73882710285011
+  ],
+  "stac_extensions": []
+}
